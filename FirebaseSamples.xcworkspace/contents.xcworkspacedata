@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SwiftChat2/../WKFirebase/WKFirebase.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:FirebaseTest/FirebaseTest.xcodeproj">
    </FileRef>
    <FileRef
