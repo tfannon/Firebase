@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6505A3D51AD9A2DA00CECFBE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6505A3D41AD9A2DA00CECFBE /* Media.xcassets */; };
+		6505A3D71AD9E4B100CECFBE /* FirebaseDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505A3D61AD9E4B100CECFBE /* FirebaseDTOs.swift */; };
+		6505A3D91ADB68AA00CECFBE /* AssignmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505A3D81ADB68AA00CECFBE /* AssignmentCell.swift */; };
+		6505A3DB1ADB68C700CECFBE /* 1231-user-add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6505A3DA1ADB68C700CECFBE /* 1231-user-add@3x.png */; };
+		6505A3DD1ADC709800CECFBE /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505A3DC1ADC709800CECFBE /* UserSettings.swift */; };
+		6505A3DF1ADC8B5200CECFBE /* ExtensionMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505A3DE1ADC8B5200CECFBE /* ExtensionMethods.swift */; };
+		651324FD1ACE0DC200F2B7E0 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 651324FC1ACE0DC200F2B7E0 /* libicucore.dylib */; };
+		651324FF1ACE0DD100F2B7E0 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 651324FE1ACE0DD100F2B7E0 /* libc++.dylib */; };
+		651325011ACE0DD900F2B7E0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651325001ACE0DD900F2B7E0 /* CFNetwork.framework */; };
+		651325031ACE0DE400F2B7E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651325021ACE0DE400F2B7E0 /* Security.framework */; };
+		651325051ACE0DEF00F2B7E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651325041ACE0DEF00F2B7E0 /* SystemConfiguration.framework */; };
+		6513250A1ACE106D00F2B7E0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651325091ACE106D00F2B7E0 /* LoginController.swift */; };
+		6513250C1ACE304200F2B7E0 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513250B1ACE304200F2B7E0 /* MyTabBarController.swift */; };
+		6529B5DF1ADEE96D003D9A1F /* completed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529B5DB1ADEE96D003D9A1F /* completed.png */; };
+		6529B5E01ADEE96D003D9A1F /* in-progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529B5DC1ADEE96D003D9A1F /* in-progress.png */; };
+		6529B5E11ADEE96D003D9A1F /* not-started.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529B5DD1ADEE96D003D9A1F /* not-started.png */; };
+		6529B5E21ADEE96D003D9A1F /* reviewed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529B5DE1ADEE96D003D9A1F /* reviewed.png */; };
+		6563E4D11AD4EDD800232D75 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6563E4D01AD4EDD800232D75 /* Firebase.framework */; };
+		6593C6A41ACF068700349822 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593C6A31ACF068700349822 /* FirebaseHelper.swift */; };
+		6593E57D1ADC2C7C00076E4F /* Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593E57C1ADC2C7C00076E4F /* Checkbox.m */; };
+		65B13B6A1ACF0E8800FB7639 /* 1231-user-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B681ACF0E8800FB7639 /* 1231-user-add.png */; };
+		65B13B6B1ACF0E8800FB7639 /* 1231-user-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B681ACF0E8800FB7639 /* 1231-user-add.png */; };
+		65B13B6C1ACF0E8800FB7639 /* 1231-user-add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B691ACF0E8800FB7639 /* 1231-user-add@2x.png */; };
+		65B13B6D1ACF0E8800FB7639 /* 1231-user-add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B691ACF0E8800FB7639 /* 1231-user-add@2x.png */; };
+		65B13B711ACF109600FB7639 /* Workflow.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B6F1ACF109600FB7639 /* Workflow.png */; };
+		65B13B721ACF109600FB7639 /* Workflow.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B6F1ACF109600FB7639 /* Workflow.png */; };
+		65B13B731ACF109600FB7639 /* Workflow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B701ACF109600FB7639 /* Workflow@2x.png */; };
+		65B13B741ACF109600FB7639 /* Workflow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B13B701ACF109600FB7639 /* Workflow@2x.png */; };
+		65CF82291ADDED8900618E46 /* WorkflowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF82281ADDED8900618E46 /* WorkflowCell.swift */; };
+		65EE8EAF1ADDF7250009B1DD /* gear-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE8EAE1ADDF7250009B1DD /* gear-512x512.png */; };
+		65EE8EB31ADE01EE0009B1DD /* 1226-chat-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE8EB01ADE01EE0009B1DD /* 1226-chat-plus.png */; };
+		65EE8EB41ADE01EE0009B1DD /* 1226-chat-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE8EB11ADE01EE0009B1DD /* 1226-chat-plus@2x.png */; };
+		65EE8EB51ADE01EE0009B1DD /* 1226-chat-plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE8EB21ADE01EE0009B1DD /* 1226-chat-plus@3x.png */; };
+		65EE8EB71ADED4990009B1DD /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE8EB61ADED4990009B1DD /* ChatController.swift */; };
+		65FF70281ACCDBC800944F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF70271ACCDBC800944F93 /* AppDelegate.swift */; };
+		65FF702A1ACCDBC800944F93 /* AssignmentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF70291ACCDBC800944F93 /* AssignmentsController.swift */; };
+		65FF702C1ACCDBC800944F93 /* WorkflowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF702B1ACCDBC800944F93 /* WorkflowController.swift */; };
+		65FF702F1ACCDBC800944F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FF702D1ACCDBC800944F93 /* Main.storyboard */; };
+		65FF70341ACCDBC800944F93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FF70321ACCDBC800944F93 /* LaunchScreen.xib */; };
+		65FF70401ACCDBC800944F93 /* WKFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF703F1ACCDBC800944F93 /* WKFirebaseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FF703A1ACCDBC800944F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FF701A1ACCDBC800944F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FF70211ACCDBC800944F93;
+			remoteInfo = WKFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6505A3D41AD9A2DA00CECFBE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6505A3D61AD9E4B100CECFBE /* FirebaseDTOs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDTOs.swift; sourceTree = "<group>"; };
+		6505A3D81ADB68AA00CECFBE /* AssignmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentCell.swift; sourceTree = "<group>"; };
+		6505A3DA1ADB68C700CECFBE /* 1231-user-add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1231-user-add@3x.png"; sourceTree = "<group>"; };
+		6505A3DC1ADC709800CECFBE /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		6505A3DE1ADC8B5200CECFBE /* ExtensionMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionMethods.swift; sourceTree = "<group>"; };
+		651324FC1ACE0DC200F2B7E0 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		651324FE1ACE0DD100F2B7E0 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		651325001ACE0DD900F2B7E0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		651325021ACE0DE400F2B7E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		651325041ACE0DEF00F2B7E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		651325061ACE0E3900F2B7E0 /* WKFirebase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKFirebase-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		651325091ACE106D00F2B7E0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6513250B1ACE304200F2B7E0 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		6529B5DB1ADEE96D003D9A1F /* completed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completed.png; sourceTree = "<group>"; };
+		6529B5DC1ADEE96D003D9A1F /* in-progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "in-progress.png"; sourceTree = "<group>"; };
+		6529B5DD1ADEE96D003D9A1F /* not-started.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "not-started.png"; sourceTree = "<group>"; };
+		6529B5DE1ADEE96D003D9A1F /* reviewed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reviewed.png; sourceTree = "<group>"; };
+		6563E4D01AD4EDD800232D75 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		6593C6A31ACF068700349822 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		6593E57B1ADC2C7C00076E4F /* Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checkbox.h; sourceTree = "<group>"; };
+		6593E57C1ADC2C7C00076E4F /* Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checkbox.m; sourceTree = "<group>"; };
+		65B13B681ACF0E8800FB7639 /* 1231-user-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1231-user-add.png"; sourceTree = "<group>"; };
+		65B13B691ACF0E8800FB7639 /* 1231-user-add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1231-user-add@2x.png"; sourceTree = "<group>"; };
+		65B13B6F1ACF109600FB7639 /* Workflow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Workflow.png; sourceTree = "<group>"; };
+		65B13B701ACF109600FB7639 /* Workflow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Workflow@2x.png"; sourceTree = "<group>"; };
+		65CF82281ADDED8900618E46 /* WorkflowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkflowCell.swift; sourceTree = "<group>"; };
+		65EE8EAE1ADDF7250009B1DD /* gear-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-512x512.png"; sourceTree = "<group>"; };
+		65EE8EB01ADE01EE0009B1DD /* 1226-chat-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1226-chat-plus.png"; sourceTree = "<group>"; };
+		65EE8EB11ADE01EE0009B1DD /* 1226-chat-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1226-chat-plus@2x.png"; sourceTree = "<group>"; };
+		65EE8EB21ADE01EE0009B1DD /* 1226-chat-plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1226-chat-plus@3x.png"; sourceTree = "<group>"; };
+		65EE8EB61ADED4990009B1DD /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		65FF70221ACCDBC800944F93 /* WKFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FF70261ACCDBC800944F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FF70271ACCDBC800944F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65FF70291ACCDBC800944F93 /* AssignmentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsController.swift; sourceTree = "<group>"; };
+		65FF702B1ACCDBC800944F93 /* WorkflowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowController.swift; sourceTree = "<group>"; };
+		65FF702E1ACCDBC800944F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65FF70331ACCDBC800944F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65FF70391ACCDBC800944F93 /* WKFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FF703E1ACCDBC800944F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FF703F1ACCDBC800944F93 /* WKFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKFirebaseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FF701F1ACCDBC800944F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651325051ACE0DEF00F2B7E0 /* SystemConfiguration.framework in Frameworks */,
+				6563E4D11AD4EDD800232D75 /* Firebase.framework in Frameworks */,
+				651325031ACE0DE400F2B7E0 /* Security.framework in Frameworks */,
+				651325011ACE0DD900F2B7E0 /* CFNetwork.framework in Frameworks */,
+				651324FF1ACE0DD100F2B7E0 /* libc++.dylib in Frameworks */,
+				651324FD1ACE0DC200F2B7E0 /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF70361ACCDBC800944F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6563E4D21AD4EDDB00232D75 /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				6563E4D01AD4EDD800232D75 /* Firebase.framework */,
+				651325041ACE0DEF00F2B7E0 /* SystemConfiguration.framework */,
+				651325021ACE0DE400F2B7E0 /* Security.framework */,
+				651325001ACE0DD900F2B7E0 /* CFNetwork.framework */,
+				651324FE1ACE0DD100F2B7E0 /* libc++.dylib */,
+				651324FC1ACE0DC200F2B7E0 /* libicucore.dylib */,
+			);
+			name = Framworks;
+			sourceTree = "<group>";
+		};
+		65B13B6E1ACF0E9300FB7639 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6529B5DB1ADEE96D003D9A1F /* completed.png */,
+				6529B5DC1ADEE96D003D9A1F /* in-progress.png */,
+				6529B5DD1ADEE96D003D9A1F /* not-started.png */,
+				6529B5DE1ADEE96D003D9A1F /* reviewed.png */,
+				65EE8EB01ADE01EE0009B1DD /* 1226-chat-plus.png */,
+				65EE8EB11ADE01EE0009B1DD /* 1226-chat-plus@2x.png */,
+				65EE8EB21ADE01EE0009B1DD /* 1226-chat-plus@3x.png */,
+				65FF70321ACCDBC800944F93 /* LaunchScreen.xib */,
+				65EE8EAE1ADDF7250009B1DD /* gear-512x512.png */,
+				65B13B6F1ACF109600FB7639 /* Workflow.png */,
+				65B13B701ACF109600FB7639 /* Workflow@2x.png */,
+				65B13B681ACF0E8800FB7639 /* 1231-user-add.png */,
+				65B13B691ACF0E8800FB7639 /* 1231-user-add@2x.png */,
+				6505A3DA1ADB68C700CECFBE /* 1231-user-add@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		65FF70191ACCDBC800944F93 = {
+			isa = PBXGroup;
+			children = (
+				6505A3D41AD9A2DA00CECFBE /* Media.xcassets */,
+				6563E4D21AD4EDDB00232D75 /* Framworks */,
+				65FF70241ACCDBC800944F93 /* WKFirebase */,
+				65FF703C1ACCDBC800944F93 /* WKFirebaseTests */,
+				65FF70231ACCDBC800944F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FF70231ACCDBC800944F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FF70221ACCDBC800944F93 /* WKFirebase.app */,
+				65FF70391ACCDBC800944F93 /* WKFirebaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FF70241ACCDBC800944F93 /* WKFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				65FF702D1ACCDBC800944F93 /* Main.storyboard */,
+				6593E57B1ADC2C7C00076E4F /* Checkbox.h */,
+				6593E57C1ADC2C7C00076E4F /* Checkbox.m */,
+				651325061ACE0E3900F2B7E0 /* WKFirebase-Bridging-Header.h */,
+				65FF70271ACCDBC800944F93 /* AppDelegate.swift */,
+				6505A3DE1ADC8B5200CECFBE /* ExtensionMethods.swift */,
+				65EE8EB61ADED4990009B1DD /* ChatController.swift */,
+				6505A3D61AD9E4B100CECFBE /* FirebaseDTOs.swift */,
+				6593C6A31ACF068700349822 /* FirebaseHelper.swift */,
+				65FF70291ACCDBC800944F93 /* AssignmentsController.swift */,
+				6505A3D81ADB68AA00CECFBE /* AssignmentCell.swift */,
+				651325091ACE106D00F2B7E0 /* LoginController.swift */,
+				6513250B1ACE304200F2B7E0 /* MyTabBarController.swift */,
+				65FF702B1ACCDBC800944F93 /* WorkflowController.swift */,
+				65CF82281ADDED8900618E46 /* WorkflowCell.swift */,
+				6505A3DC1ADC709800CECFBE /* UserSettings.swift */,
+				65B13B6E1ACF0E9300FB7639 /* Resources */,
+				65FF70251ACCDBC800944F93 /* Supporting Files */,
+			);
+			path = WKFirebase;
+			sourceTree = "<group>";
+		};
+		65FF70251ACCDBC800944F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65FF70261ACCDBC800944F93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65FF703C1ACCDBC800944F93 /* WKFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				65FF703F1ACCDBC800944F93 /* WKFirebaseTests.swift */,
+				65FF703D1ACCDBC800944F93 /* Supporting Files */,
+			);
+			path = WKFirebaseTests;
+			sourceTree = "<group>";
+		};
+		65FF703D1ACCDBC800944F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65FF703E1ACCDBC800944F93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FF70211ACCDBC800944F93 /* WKFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FF70431ACCDBC800944F93 /* Build configuration list for PBXNativeTarget "WKFirebase" */;
+			buildPhases = (
+				65FF701E1ACCDBC800944F93 /* Sources */,
+				65FF701F1ACCDBC800944F93 /* Frameworks */,
+				65FF70201ACCDBC800944F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKFirebase;
+			productName = WKFirebase;
+			productReference = 65FF70221ACCDBC800944F93 /* WKFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FF70381ACCDBC800944F93 /* WKFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FF70461ACCDBC800944F93 /* Build configuration list for PBXNativeTarget "WKFirebaseTests" */;
+			buildPhases = (
+				65FF70351ACCDBC800944F93 /* Sources */,
+				65FF70361ACCDBC800944F93 /* Frameworks */,
+				65FF70371ACCDBC800944F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FF703B1ACCDBC800944F93 /* PBXTargetDependency */,
+			);
+			name = WKFirebaseTests;
+			productName = WKFirebaseTests;
+			productReference = 65FF70391ACCDBC800944F93 /* WKFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FF701A1ACCDBC800944F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Crazy8Dev;
+				TargetAttributes = {
+					65FF70211ACCDBC800944F93 = {
+						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					65FF70381ACCDBC800944F93 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 65FF70211ACCDBC800944F93;
+					};
+				};
+			};
+			buildConfigurationList = 65FF701D1ACCDBC800944F93 /* Build configuration list for PBXProject "WKFirebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65FF70191ACCDBC800944F93;
+			productRefGroup = 65FF70231ACCDBC800944F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FF70211ACCDBC800944F93 /* WKFirebase */,
+				65FF70381ACCDBC800944F93 /* WKFirebaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FF70201ACCDBC800944F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE8EB51ADE01EE0009B1DD /* 1226-chat-plus@3x.png in Resources */,
+				65FF702F1ACCDBC800944F93 /* Main.storyboard in Resources */,
+				65EE8EAF1ADDF7250009B1DD /* gear-512x512.png in Resources */,
+				6529B5DF1ADEE96D003D9A1F /* completed.png in Resources */,
+				65B13B6C1ACF0E8800FB7639 /* 1231-user-add@2x.png in Resources */,
+				6505A3D51AD9A2DA00CECFBE /* Media.xcassets in Resources */,
+				6505A3DB1ADB68C700CECFBE /* 1231-user-add@3x.png in Resources */,
+				65EE8EB41ADE01EE0009B1DD /* 1226-chat-plus@2x.png in Resources */,
+				65B13B711ACF109600FB7639 /* Workflow.png in Resources */,
+				6529B5E11ADEE96D003D9A1F /* not-started.png in Resources */,
+				6529B5E21ADEE96D003D9A1F /* reviewed.png in Resources */,
+				65B13B6A1ACF0E8800FB7639 /* 1231-user-add.png in Resources */,
+				65FF70341ACCDBC800944F93 /* LaunchScreen.xib in Resources */,
+				65EE8EB31ADE01EE0009B1DD /* 1226-chat-plus.png in Resources */,
+				65B13B731ACF109600FB7639 /* Workflow@2x.png in Resources */,
+				6529B5E01ADEE96D003D9A1F /* in-progress.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF70371ACCDBC800944F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B13B6D1ACF0E8800FB7639 /* 1231-user-add@2x.png in Resources */,
+				65B13B6B1ACF0E8800FB7639 /* 1231-user-add.png in Resources */,
+				65B13B721ACF109600FB7639 /* Workflow.png in Resources */,
+				65B13B741ACF109600FB7639 /* Workflow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FF701E1ACCDBC800944F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CF82291ADDED8900618E46 /* WorkflowCell.swift in Sources */,
+				6505A3D91ADB68AA00CECFBE /* AssignmentCell.swift in Sources */,
+				6505A3D71AD9E4B100CECFBE /* FirebaseDTOs.swift in Sources */,
+				65FF702C1ACCDBC800944F93 /* WorkflowController.swift in Sources */,
+				6505A3DD1ADC709800CECFBE /* UserSettings.swift in Sources */,
+				65FF70281ACCDBC800944F93 /* AppDelegate.swift in Sources */,
+				65FF702A1ACCDBC800944F93 /* AssignmentsController.swift in Sources */,
+				65EE8EB71ADED4990009B1DD /* ChatController.swift in Sources */,
+				6505A3DF1ADC8B5200CECFBE /* ExtensionMethods.swift in Sources */,
+				6513250A1ACE106D00F2B7E0 /* LoginController.swift in Sources */,
+				6593C6A41ACF068700349822 /* FirebaseHelper.swift in Sources */,
+				6593E57D1ADC2C7C00076E4F /* Checkbox.m in Sources */,
+				6513250C1ACE304200F2B7E0 /* MyTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF70351ACCDBC800944F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FF70401ACCDBC800944F93 /* WKFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FF703B1ACCDBC800944F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FF70211ACCDBC800944F93 /* WKFirebase */;
+			targetProxy = 65FF703A1ACCDBC800944F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FF702D1ACCDBC800944F93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FF702E1ACCDBC800944F93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65FF70321ACCDBC800944F93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FF70331ACCDBC800944F93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FF70411ACCDBC800944F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65FF70421ACCDBC800944F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FF70441ACCDBC800944F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WKFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WKFirebase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65FF70451ACCDBC800944F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WKFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WKFirebase-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		65FF70471ACCDBC800944F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WKFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKFirebase.app/WKFirebase";
+			};
+			name = Debug;
+		};
+		65FF70481ACCDBC800944F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WKFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKFirebase.app/WKFirebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FF701D1ACCDBC800944F93 /* Build configuration list for PBXProject "WKFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FF70411ACCDBC800944F93 /* Debug */,
+				65FF70421ACCDBC800944F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FF70431ACCDBC800944F93 /* Build configuration list for PBXNativeTarget "WKFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FF70441ACCDBC800944F93 /* Debug */,
+				65FF70451ACCDBC800944F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FF70461ACCDBC800944F93 /* Build configuration list for PBXNativeTarget "WKFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FF70471ACCDBC800944F93 /* Debug */,
+				65FF70481ACCDBC800944F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FF701A1ACCDBC800944F93 /* Project object */;
+}
